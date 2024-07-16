@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Book your holiday</h2>
+        <div><span id="nightPrice">46</span> € / night</div>
+
+        <label for="start_date">Start</label>
+        <input type="date" id="start_date" required>
+        <label for="end_date">End</label>
+        <input type="date" id="end_date" required>
+
+        <h3>Total : <span id="total"></span> €</h3>
+        <button class="btn btn cyan accent-3">Validate</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
